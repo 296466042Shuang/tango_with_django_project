@@ -1,12 +1,10 @@
 # Author: Zhi Kai
-# Time:  15:45
-
+# Time:  16:02
 from django.urls import path
-from rango import views
+from myapp import views
 
-app_name='rango'
+app_name='myapp'
 
 urlpatterns = [
     path('',views.index,name='index'),
-    path('about/',views.about,name='about'),
 ]
